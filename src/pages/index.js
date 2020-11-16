@@ -50,6 +50,30 @@ export default (() => {
 						Contact
 					</Override>
 				</Menu>
+				<Menu
+					display="flex"
+					justify-content="center"
+					font="--base"
+					font-weight="700"
+					md-flex-direction="column"
+					md-align-items="center"
+				>
+					<Override
+						slot="link"
+						text-decoration="none"
+						color="--dark"
+						padding="6px 12px"
+						hover-color="#3381ce"
+					/>
+					<Override slot="link-active" color="--primary" />
+					<Override slot="item" padding="6px" />
+					<Override slot="link-404">
+						About
+					</Override>
+					<Override slot="link-index">
+						Contact
+					</Override>
+				</Menu>
 			</Box>
 		</Section>
 		<Section padding="140px 0" sm-padding="40px 0" background="url(https://images.unsplash.com/photo-1515600051222-a3c338ff16f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80) center/cover">
