@@ -101,7 +101,7 @@ export default (() => {
 						CEO
 					</Text>
 					<Text as="h3" font="--headline3" margin="5px 0 20px 0">
-						Nathan K. Joe
+						Nathan K. John
 					</Text>
 					<Text as="p" margin="20px 0 5px 0">
 						This space is 100% editable. Use it to introduce a team member, describe their work experience and role within the company. This is also a great place to highlight a team member's strong sides.
